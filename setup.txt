@@ -1,0 +1,13 @@
+Install laravel 
+Install breeze just incase you want to use their layout for dashboard
+if(2){
+    comment out their navs from navigation blade 
+}
+check screenshots in laravel-vue-breeze folder on desktop
+Add id='app' to app.blade div body wrapper
+when installing vue components remove the "alpinejs": "^3.10.5", so it does not class with vue js 
+Now we can install Vue and Vue loader and set up Vue.
+npm install vue@next vue-loader@next
+Next, we need to install the Vue Vite plugin.
+npm install --save-dev @vitejs/plugin-vue
+And add config to the vite.config.js. => check screenshot. basicslly importing the vitejs plugin

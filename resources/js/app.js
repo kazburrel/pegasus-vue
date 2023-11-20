@@ -1,7 +1,8 @@
 import './bootstrap';
 
-import Alpine from 'alpinejs';
-
-window.Alpine = Alpine;
-
-Alpine.start();
+import { createApp } from 'vue' 
+import HomeIndex from './components/Home/Index.vue' 
+ 
+createApp({}) 
+    .component('HomeIndex', HomeIndex)
+    .mount('#app') 
